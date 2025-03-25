@@ -57,19 +57,16 @@ Save the file (Ctrl+O, then Ctrl+X in nano).
 ## Usage
 
 1. Manual Execution
-
 Run the script directly:
+
     ```bash
     ./didi-wifi-login.sh
 
-2. Automatic Login Method
+3. Automatic Login Method
  NetworkManager Dispatch Script
 
-
-    Copy the script:
-        ```bash
-        sudo cp didi-wifi-login.sh /etc/NetworkManager/dispatcher.d/99-didi-login.sh
+    ```bash
+    sudo cp didi-wifi-login.sh /etc/NetworkManager/dispatcher.d/99-didi-login.sh
 
     
-
 This will run automatically whenever your network connection changes.
